@@ -7,8 +7,8 @@ import com.example.product_api.entity.Product;
 
 public interface ProductService {
 
-    List<Product> getAllProducts();
-    List<Product> searchProductsByCategory(String category);
+    List<ProductDTO> getAllProducts();
+    List<ProductDTO> searchProductsByCategory(String category);
     Product addProduct(ProductDTO productDTO);
     void deleteProductByName(String name);
 
