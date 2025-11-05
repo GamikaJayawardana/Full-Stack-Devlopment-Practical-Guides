@@ -17,7 +17,7 @@ public class ProductServiceImpl implements ProductService {
     @Autowired
     private ProductRepository productRepository;
 
-    // Helper method to convert Entity to DTO
+    
     private ProductDTO convertToDTO(Product product) {
         ProductDTO dto = new ProductDTO();
         dto.setProductName(product.getProductName());
@@ -46,7 +46,7 @@ public class ProductServiceImpl implements ProductService {
     public List<ProductDTO> getAllProducts() {
         return productRepository.findAll()
                 .stream()
-                .map(this::convertToDTO) // Convert each product to a DTO
+                .map(this::convertToDTO) 
                 .collect(Collectors.toList());
     }
 
