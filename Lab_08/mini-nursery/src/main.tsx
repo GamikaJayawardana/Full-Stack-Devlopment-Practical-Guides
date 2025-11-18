@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { Plant } from './types';
+import type { Plant } from './types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const plants: Plant[] = [
@@ -40,6 +40,6 @@ const plants: Plant[] = [
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <App plants={plants} />
   </StrictMode>,
 )
