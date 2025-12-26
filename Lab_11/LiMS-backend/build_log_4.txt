@@ -1,0 +1,77 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/gamik/.m2/wrapper/dists/apache-maven-3.9.11/a2d47e15/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< com.lib:LiMS >----------------------------
+[INFO] Building LiMS 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.7:run (default-cli) > test-compile @ LiMS >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ LiMS ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ LiMS ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ LiMS ---
+[INFO] skip non existing resourceDirectory D:\(D) Documents\Lessons\Year 03 Sem 02\BECS 32263 - Full-Stack Software Development\Full-Stack-Devlopment-Practical-Guides\Lab_11\LiMS-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ LiMS ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.7:run (default-cli) < test-compile @ LiMS <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.7:run (default-cli) @ LiMS ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2025-12-26T16:36:56.520+05:30  INFO 19124 --- [LiMS] [           main] com.lib.LiMS.LiMsApplication             : Starting LiMsApplication using Java 25.0.1 with PID 19124 (D:\(D) Documents\Lessons\Year 03 Sem 02\BECS 32263 - Full-Stack Software Development\Full-Stack-Devlopment-Practical-Guides\Lab_11\LiMS-backend\target\classes started by gamik in D:\(D) Documents\Lessons\Year 03 Sem 02\BECS 32263 - Full-Stack Software Development\Full-Stack-Devlopment-Practical-Guides\Lab_11\LiMS-backend)
+2025-12-26T16:36:56.521+05:30  INFO 19124 --- [LiMS] [           main] com.lib.LiMS.LiMsApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-12-26T16:36:57.156+05:30  INFO 19124 --- [LiMS] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-26T16:36:57.212+05:30  INFO 19124 --- [LiMS] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 MongoDB repository interfaces.
+2025-12-26T16:36:57.633+05:30  INFO 19124 --- [LiMS] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9099 (http)
+2025-12-26T16:36:57.648+05:30  INFO 19124 --- [LiMS] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-26T16:36:57.648+05:30  INFO 19124 --- [LiMS] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-12-26T16:36:57.702+05:30  INFO 19124 --- [LiMS] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-26T16:36:57.702+05:30  INFO 19124 --- [LiMS] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
+2025-12-26T16:36:58.043+05:30  INFO 19124 --- [LiMS] [           main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/25.0.1+8-LTS-27"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='Anuka2001', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@526e8108, com.mongodb.Jep395RecordCodecProvider@4dcbae55, com.mongodb.KotlinCodecProvider@4a9860]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=labcluster.ew0tjzj.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-nomri9-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-12-26T16:36:58.179+05:30  INFO 19124 --- [LiMS] [jzj.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017 to client view of cluster
+2025-12-26T16:36:58.201+05:30  INFO 19124 --- [LiMS] [jzj.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017 to client view of cluster
+2025-12-26T16:36:58.202+05:30  INFO 19124 --- [LiMS] [jzj.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017 to client view of cluster
+2025-12-26T16:36:58.463+05:30  INFO 19124 --- [LiMS] [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-26T16:36:58.464+05:30  WARN 19124 --- [LiMS] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-26T16:36:59.042+05:30  INFO 19124 --- [LiMS] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9099 (http) with context path '/'
+2025-12-26T16:36:59.047+05:30  INFO 19124 --- [LiMS] [           main] com.lib.LiMS.LiMsApplication             : Started LiMsApplication in 2.876 seconds (process running for 3.184)
+2025-12-26T16:36:59.094+05:30  INFO 19124 --- [LiMS] [           main] org.mongodb.driver.cluster               : Waiting for server to become available for operation with ID 5. Remaining time: 29994 ms. Selector: ReadPreferenceServerSelector{readPreference=primary}, topology description: {type=REPLICA_SET, servers=[{address=ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}].
+2025-12-26T16:37:00.892+05:30  INFO 19124 --- [LiMS] [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017, type=REPLICA_SET_PRIMARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=977985300, minRoundTripTimeNanos=0, setName='atlas-nomri9-shard-0', canonicalAddress=ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017, hosts=[ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017, ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017, ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017], passives=[], arbiters=[], primary='ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000007a, setVersion=88, topologyVersion=TopologyVersion{processId=6942b7d566783c99600b2c73, counter=6}, lastWriteDate=Fri Dec 26 16:37:01 IST 2025, lastUpdateTimeNanos=249520658628600}
+2025-12-26T16:37:00.892+05:30  INFO 19124 --- [LiMS] [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017, type=REPLICA_SET_SECONDARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=978131000, minRoundTripTimeNanos=0, setName='atlas-nomri9-shard-0', canonicalAddress=ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017, hosts=[ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017, ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017, ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017], passives=[], arbiters=[], primary='ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=88, topologyVersion=TopologyVersion{processId=6942b79f38ada72454fae1af, counter=4}, lastWriteDate=Fri Dec 26 16:37:01 IST 2025, lastUpdateTimeNanos=249520658770900}
+2025-12-26T16:37:00.893+05:30  INFO 19124 --- [LiMS] [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017 with max election id 7fffffff000000000000007a and max set version 88
+2025-12-26T16:37:01.007+05:30  INFO 19124 --- [LiMS] [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017, type=REPLICA_SET_SECONDARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=881410900, minRoundTripTimeNanos=0, setName='atlas-nomri9-shard-0', canonicalAddress=ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017, hosts=[ac-bnq5acw-shard-00-00.ew0tjzj.mongodb.net:27017, ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017, ac-bnq5acw-shard-00-01.ew0tjzj.mongodb.net:27017], passives=[], arbiters=[], primary='ac-bnq5acw-shard-00-02.ew0tjzj.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=88, topologyVersion=TopologyVersion{processId=6942b80c690c33fe4961c1fc, counter=3}, lastWriteDate=Fri Dec 26 16:37:02 IST 2025, lastUpdateTimeNanos=249520776115100}
+2025-12-26T16:37:21.515+05:30  INFO 19124 --- [LiMS] [nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26T16:37:21.516+05:30  INFO 19124 --- [LiMS] [nio-9099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-26T16:37:21.517+05:30  INFO 19124 --- [LiMS] [nio-9099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-26T16:37:21.538+05:30 ERROR 19124 --- [LiMS] [nio-9099-exec-1] c.l.LiMS.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2025-12-26T16:39:35.317+05:30  WARN 19124 --- [LiMS] [nio-9099-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-12-26T16:39:35.378+05:30 ERROR 19124 --- [LiMS] [nio-9099-exec-3] c.l.LiMS.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2025-12-26T16:42:09.892+05:30  INFO 19124 --- [LiMS] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-26T16:42:09.927+05:30  INFO 19124 --- [LiMS] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:16 min
+[INFO] Finished at: 2025-12-26T16:42:10+05:30
+[INFO] ------------------------------------------------------------------------
